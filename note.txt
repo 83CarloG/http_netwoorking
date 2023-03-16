@@ -1,0 +1,24 @@
+[Parte 1 - Why HTTP]
+HTTP = hyper text transfer protocol.
+HTTP è il protocollo più usato per la comunicazione online. Tutti abbiamo notato che ogni volta che visiti un sito Web, vedi quella sezione "HTTP://" nell'URL, 
+questo perchè tutte le volte che visitiamo un sito internet usiamo il protocollo HTTP.
+Cos'è un protocollo? Il protocollo è ciò che dice ai computers come associare queste informazioni in qualcosa di utile.
+
+ Il sistema HTTP funziona come un semplice scambio sincrono di "Request" (richieste) e "Response" (risposte)
+
+         "Request"
+    ------------------->
+ Client              Server
+    <------------------                            
+         "Response"
+
+Semplice sistema di domande e risposte, facciamo domande al server e riceviamo risposte.
+Nell' esercizio "01_fantasy_quest" abbiamo fatto una richiesta al server di Fantasy Quest per un elenco di  tutti gli oggetti presenti nel gioco e abbiamo ottenuto
+un elenco di oggetti nel gioco.
+Un URL, Uniform Resource Locator, è essenzialmente l\'indirizzo di un altro computer o server in internet. Parte dell '\ URL specifica come trovare il server, e parte di esso dice 
+al server che informazione vogliamo.
+The http:// all'inizio di un URL di un sito specifica che http protocollo sarà usato, altri protocolli posso usare URLs.
+
+La parola Client e server contano solo nel contesto di una singola richiesta HTTP; se un computer sta inviando una richiesta HTTP lo consideriamo il client, se un computer
+risponde a una richiesta HTTP lo considerianmo il server.
+
