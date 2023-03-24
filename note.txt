@@ -22,3 +22,4 @@ The http:// all'inizio di un URL di un sito specifica che http protocollo sarà 
 La parola Client e server contano solo nel contesto di una singola richiesta HTTP; se un computer sta inviando una richiesta HTTP lo consideriamo il client, se un computer
 risponde a una richiesta HTTP lo considerianmo il server.
 
+[Parte 2 - Ch 2 - DNS]
